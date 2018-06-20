@@ -31,13 +31,13 @@ La bibliothèque jQuery peut être appelée de deux manières différentes :
 
  
 
-#Les images
+
 
  ![Image du site GIPHY par ex](https://media.giphy.com/media/MARFSIQQNQVWw/giphy.gif)
      
 c'est ok !
 
-### `###` Les liens
+### `###` Sources
 
      *(Lien sur un site / une url):https:www.openclassroom.com
      .(Lien vers un autre fichier Github)
