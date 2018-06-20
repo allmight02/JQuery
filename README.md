@@ -18,7 +18,18 @@ JQuery se présente comme un unique fichier JavaScript il peut être inclus dans
 
 La bibliothèque jQuery peut être appelée de deux manières différentes :
 
+   
     via la fonction jQuery, ou $. Cette fonction est chaînable (elle retourne l'objet appelant). Par exemple :
+
+    $("div.test").add("p.quote").addClass("blue").slideDown("slow");
+
+    via l'objet $. Par exemple :
+
+    $.each([1,2,3], function() {
+    	document.write(this + 1);
+    });
+
+ 
 
 #Les images
 
@@ -28,7 +39,7 @@ c'est ok !
 
 ### `###` Les liens
 
-     *(Lien sur un site / une url):https:www.google.com
+     *(Lien sur un site / une url):https:www.openclassroom.com
      .(Lien vers un autre fichier Github)
      (https://openclassrooms.com/courses/simplifiez-vos-developpements-javascript-avec-jquery/avant-de-commencer-6)
 
